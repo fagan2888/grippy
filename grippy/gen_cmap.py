@@ -6,6 +6,8 @@ from scipy import interpolate
 import matplotlib.colors as colors
 import matplotlib.pyplot as plt
 
+__author__="Greg Dobler; http://github.com/gdobler"
+
 def gen_cmap(clrs=["orange","darkorange","k","dodgerblue","lightblue"],
              piv=None, gam=1.0, see=False):
     """
